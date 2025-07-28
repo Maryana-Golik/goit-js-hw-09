@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Не заповнені дані');
       return;
     }
-    console.log(email, message);
+    console.log(formData);
     localStorage.removeItem('feedback-form-state');
     formElem.reset();
     formData = { email: '', message: '' };
